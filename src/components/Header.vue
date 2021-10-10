@@ -1,11 +1,14 @@
 <template>
   <div id="app">
     <div id="nav">
-      <h3>San <em>Parrilla</em></h3>
-      <router-link to="/">Inicio</router-link>
-      <router-link to="/about">Productos</router-link>
-      <router-link to="/contact">Contáctanos</router-link>
-      <router-link to="/Nota">Pedido</router-link>
+      <header class="header">
+      <router-link class="name" to="/">San <em>Parrilla</em></router-link>
+      <router-link class="head" to="/">Inicio</router-link>
+      <router-link class="head" to="/about">Productos</router-link>
+      <router-link class="head" to="/contact">Contáctanos</router-link>
+      <router-link class="head" to="/Nota">Pedido</router-link>
+      <router-link class="head" to="/signup">Sign Up</router-link>
+      </header>
     </div>
     <router-view/>
   </div>
@@ -28,11 +31,14 @@ export default {
 }
 
 #nav {
-  padding: 30px;
+  padding: 25px;
   background: #333;
   text-align: center;
 
-  
+
+  header.header{
+    font-size: 28px;
+  }
   a {
     font-weight: bold;
     color: white;
@@ -46,19 +52,23 @@ export default {
       
     }
   }
-  a:hover{
+
+  a.head:hover{
     background: #ddd;
     color: #333;
   }
-  h3{
+  a.name{
+    padding: 0;
     em{
       color: #f33f3f;
     }
     font-family: 'Times New Roman', Times, serif;
+    font-size: 25pt;
     float: left;
     color: white;
     text-align: center;
     padding-left: 5%;
   }
 }
+
 </style>

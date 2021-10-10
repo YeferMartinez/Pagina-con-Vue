@@ -20,7 +20,7 @@
         <div class="row">
           <div class="col-md-10">
             <div class="section-heading">
-              <h2>Nuestra Locación en Maps</h2>
+              <h2>Nuestra Ubicación en Maps</h2>
             </div>
           </div>
           <div class="col-md-8">
