@@ -15,7 +15,7 @@
               is free to use for your business websites. However, you have no
               permission to redistribute the downloadable ZIP file on any
               template collection website.
-              <a rel="nofollow" href="https://templatemo.com/contact"
+              <a rel="nofollow" href="/contact"
                 >Contact us</a
               >
               for more info.
